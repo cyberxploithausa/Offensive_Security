@@ -7,7 +7,7 @@
 [Hostname]: cybersploit-CTF
 [IP]:  192.168.233.92
 [USERS]: itsskv
-[CREDENTIALS]: itsskv = cybersploit{youtube.com/c/cybersploit}
+[CREDENTIALS]: itsskv = cybersploit{yo********************}
 =========================================================================
 ```
 -----------------------------------------------------------------------------
@@ -165,5 +165,8 @@ gcc exploit.c -o exploit
 -----------------------------------------------------------------------------
 # [Flags]
 
-`local.txt : f2a5e5e98f936b08134e68a7ec0746db`
-`proof.txt : 7f491fb21f0d16c55042a762bb08cdd0`
+`local.txt : f2a5e5e98f936b08***************`
+`proof.txt : 7f491fb21f0d16c55*************`
+
+
+#offsec #easy

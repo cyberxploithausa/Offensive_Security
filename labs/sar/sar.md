@@ -51,12 +51,27 @@ Before proceeding with anything, I noticed that it has a version so i googled th
 
 Also i use the `searchsploit` utility tool to look for same vulnerability using the terminal so it return 2 results indicating a python exploit and a text file.
 ```bash
-searchsploit sar2html 3.2.1
-locate php/webapps/49344.py
-cp /usr/share/exploitdb/exploits/php/webapps/49344.py .
-locate php/webapps/47204.txt
-cat /usr/share/exploitdb/exploits/php/webapps/47204.txt
+┌─[cyberxploit@parrot]─[~]
+└──╼ $ searchsploit sar2html 3.2.1
+------------------------------------------------------------------------------ ---------------------------------
+ Exploit Title                                                                |  Path
+------------------------------------------------------------------------------ ---------------------------------
+sar2html 3.2.1 - 'plot' Remote Code Execution                                 | php/webapps/49344.py
+Sar2HTML 3.2.1 - Remote Command Execution                                     | php/webapps/47204.txt
+------------------------------------------------------------------------------ ---------------------------------
+Shellcodes: No Results
+
+┌─[cyberxploit@parrot]─[~]
+└──╼ $ locate php/webapps/49344.py
+┌─[cyberxploit@parrot]─[~]
+└──╼ $ cp /usr/share/exploitdb/exploits/php/webapps/49344.py .
+┌─[cyberxploit@parrot]─[~]
+└──╼ $ locate php/webapps/47204.txt
+┌─[cyberxploit@parrot]─[~]
+└──╼ $ cat /usr/share/exploitdb/exploits/php/webapps/47204.txt
 ```
+
+
 ![[Pasted image 20240829233933.png]]
 
 Time to run the exploit and check what it does. We can also do that by `reading` the content of the exploit. So we run the exploit..
@@ -117,3 +132,4 @@ And after some minutes, we gain privileges as root.
 
 
 ---------------------------------------------------------------------------------------------------
+#offsec #easy

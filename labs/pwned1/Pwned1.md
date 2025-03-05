@@ -112,3 +112,5 @@ Take Away Concepts (for the flat-file reference system):
 * In the absence of SUIDs and GUIDs, check for running processes, observer groups
 
 ```
+
+#offsec #easy

@@ -42,7 +42,10 @@ PORT     STATE SERVICE REASON  VERSION
 |_-rw-r--r--   1 ftp      ftp            54 Aug  2  2020 welcome.msg
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
+```
 
+
+```
 =========================================================================
 [Web Services Enumeration]:
 
@@ -93,3 +96,6 @@ Take Away Concepts (for the flat-file reference system):
 * Awesome room
 
 ```
+
+
+#offsec #easy

@@ -5,14 +5,10 @@
 [Web-Technology]: Apache httpd 2.4.38
 [Hostname]: dauwn
 [IP]: 192.168.181.11
-[USERS]:
-ganimedes, dawn
+[USERS]: ganimedes, dawn
 [CREDENTIALS]:
-
 =========================================================================
-
 ```
-
 # [Scanning and Enumeration]
 ```
 [NMAP RESULTS]:
@@ -65,6 +61,10 @@ Host script results:
 |   date: 2024-08-12T13:28:38
 |_  start_date: N/A
 
+```
+
+
+```
 =========================================================================
 [Web Services Enumeration]:
 > Files
@@ -171,3 +171,5 @@ Take Away Concepts (for the flat-file reference system):
 * Use multiple tools for good result to a single problem.
 
 ```
+
+#offsec #easy
