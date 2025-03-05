@@ -6,8 +6,6 @@ Welcome to the **Offensive Security PG Play CTF** repository! This repository co
 
 The repository is structured as follows:
 
-. ├── README.md # This file └── labs/ ├── Challenge_1/ ├── Challenge_2/ ├── Challenge_3/ └── ...
-
 
 Each challenge folder contains all necessary files to attempt and solve the challenge.
 
